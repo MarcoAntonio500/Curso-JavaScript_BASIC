@@ -1,0 +1,33 @@
+body{
+    font: arial 20px normal;
+    width: center;
+    text-align: center;
+    box-sizing: border-box;
+    border-color: rgb(13, 85, 219);
+    border-right-style:solid;
+    border-right-width: 10cqmax;
+    border-top-color: blue;
+    border-top-style:solid;
+    border-top-width: 3cm;
+    border-left-color: blue;
+    border-left-style: solid;
+    border-left-width: 3cm;
+
+
+    
+
+    
+}
+input#loginU{
+    border-style:groove;
+    border-radius: 10px;
+    border-color: black;
+    
+}
+input#senhaU{
+    border-style:groove;
+    border-radius: 10px;
+    border-color: black;
+    
+
+}

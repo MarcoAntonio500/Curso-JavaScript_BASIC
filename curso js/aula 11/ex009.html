@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 09 País</title>
+    <style>
+        body{
+            font: normal 12pt arial;
+            width: center;
+            height: center;
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Bem Vindo Usuario</h1>
+    qual o seu país de origem: <input type="text" name="p1" id="pais1">
+    <input type="button" value="verificar" onclick="pais()">
+    <div id="res"></div>
+    <script>
+        function pais(){
+            var p1 = document.getElementById('pais1')
+            var res = document.getElementById('res')
+            var p2 = String(p1.value.toUpperCase())
+            
+           
+        
+            res.innerHTML = `<p>Seu país de oriegm é ${p2}</p>`
+            
+            if(p2 == 'BRASIL'){
+               res.innerHTML += `<p>você e Brasileiro</p>`
+
+            }
+            else{
+                res.innerHTML += `<p>Você não é Brasileiro</p>`
+            }
+        }
+    </script>
+
+    
+</body>
+</html>
